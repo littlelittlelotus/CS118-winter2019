@@ -1,6 +1,5 @@
 
 //Xiaohe YANG
-//504640747
 //CS118
 #include <string>
 #include <thread>
