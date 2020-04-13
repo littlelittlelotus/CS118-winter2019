@@ -1,4 +1,4 @@
-XIAOHE YANG, 504640737
+XIAOHE YANG, 
 Design:
 # A server and client model to run TCP protocol was implemented. The network can support multiple clients connecting at the same time, small and large files, delayed network, and the server/client will time out after the connected clients don't sent any files in 15s. The files sent from client would be saved in a directpory specified by the server. The server will keep track of how many bytes received and how many files have been received, by labeling the received file the number it is received. When receiving a SIGNAL interrupt, the network shuts down with exit code 0. Other cases of normal disconnection, exit code is also 0. In case of error, error code would be printed to cerror with exit code EXIT_FAILURE.
 
